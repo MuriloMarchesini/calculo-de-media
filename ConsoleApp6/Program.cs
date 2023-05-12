@@ -3,8 +3,8 @@ double[] nota = new double[5];                                 // as notas digit
 double[] atv = new double[5];                                  // por exemplo (digitar 8.5) ao invés de 8,5
 double soma = 0;
 int i;
-Random random = new Random();
-Console.WriteLine("Digite a quantidade de alunos:");
+Random random = new Random();                                   // As notas da atividade são geradas aleatóriamente entre 0 e 10
+Console.WriteLine("Digite a quantidade de alunos:");           
 int qtde = Convert.ToInt32(Console.ReadLine());
 
 for(i=0; i< qtde; i++)
